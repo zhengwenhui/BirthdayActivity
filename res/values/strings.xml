@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Birthday</string>
+	<string name="birthdaySolar">阳历生日</string>
+	<string name="birthdayLundar">农历生日</string>
+	<string name="warningBirthday">生日提醒</string>
+	<string name="callFailed">拨打电话失败,该联系人没有电话号码信息！</string>
+	<string name="messageFailed">发送短信息失败,该联系人没有电话号码信息！</string>
+	<string name="cannotFindFile">找不到文件！</string>
+	<string name="warnning01">没有联系人生日信息，请按menu键，查看帮助！</string>
+	<string name="string01">导入</string>
+	<string name="string02">个联系人</string>
+	<string name="help">帮助</string>
+	<string name="input">导入</string>
+	<string name="birthdayList">显示选项</string>
+	<string name="alarm">提醒闹钟</string>
+	<string name="ring">设置铃声</string>
+	<string name="vibrate">振动</string>
+	<string name="warnningSet">设置</string>
+	<string name="ok">确定</string>
+	<string name="warnningCancel">取消</string>
+	<string name="string03">提前的天数</string>
+	<string name="string04">提醒时间</string>
+	<string name="string05">显示已设置生日提醒的联系人</string>
+	<string name="string06">显示已设置生日的联系人</string>
+	<string name="warnning02">请点击出生日期项设置！</string>
+	<string name="warnning03">数据库中找不到此数据</string>
+	<string name="warnning04">"没有农历生日可显示，请设置联系人的出生日期并选中提醒农历生日！"</string>
+	<string name="warnning05">"没有阳历生日可显示，请设置联系人的出生日期并选中提醒阳历生日！"</string>
+	<string name="string07">阳历出生日期</string>
+	<string name="string08">农历出生日期</string>
+	<string name="string09">阳历生日提醒</string>
+	<string name="string10">农历生日提醒</string>
+	<string name="string11">显示所有联系人</string>
+	<string name="day">天</string>
+	<string name="helpfile"> 欢迎使用生日提醒v1.2\n ==============================\n
+		1.点击桌面图标进入程序主界面,即按时间顺序排列的生日列表，分为阳历和农历两栏。点击左侧图片可打电话和发短信，以及查看联系人信息；\n
+		2.点击联系人，进入设置联系人的出生日期；\n
+		3.点击menu键，点击“显示选项”，进入选择显示内容；\n
+		4.点击menu键，点击“设置”，进入设置界面设置生日提醒的参数；\n
+		5.点击menu键，点击“导入”，从通讯录导入联系人姓名信息；\n
+		6.点击menu键，点击“帮助”，查看帮助文档。\n ==============================\n </string>
+	<string name="search">查询</string>
+	<string name="pdmessage">正在导入联系人，请稍侯！</string>
+	<string name="today">今天</string>
+	<string name="tomorrow">明天</string>
+	<string name="string12">天后</string>
+	<string name="open">打开</string>
+	<string name="defaultRington">默认铃声</string>
+	<string name="silent">静音</string>
+	<string name="warnning06">没有选中任何选项！</string>
+</resources>

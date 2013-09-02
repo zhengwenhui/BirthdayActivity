@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<selector xmlns:Android="http://schemas.android.com/apk/res/android">    
+    <item 
+		Android:state_focused="true"
+		Android:state_selected="false"
+		Android:state_pressed="false" 
+		Android:drawable="@drawable/title" /> 
+    <item 	
+    	Android:state_focused="true"
+		Android:state_selected="true"
+		Android:state_pressed="false"   
+		Android:drawable="@drawable/state_selected" />    
+	<item
+		Android:state_focused="false"
+		Android:state_selected="true"
+		Android:state_pressed="false"
+		Android:drawable="@drawable/title" />
+		
+	<item
+		Android:state_focused="false"
+		Android:state_selected="false"
+		Android:state_pressed="false"
+		Android:drawable="@drawable/titleenable" 
+		/>
+		
+	<!-- Pressed -->
+	<item
+		Android:state_pressed="true"
+		Android:drawable="@drawable/state_pressed" />
+		
+</selector>  

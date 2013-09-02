@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center">
+	<EditText
+		android:id="@+id/foucsEditText"
+		android:layout_width="0sp"
+		android:layout_height="0sp" />
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<Button
+			android:id="@+id/plusYear"
+			android:layout_width="98sp"
+			android:background="@drawable/plus"
+			android:layout_height="40sp" />
+		<EditText
+			android:numeric="integer"
+			android:id="@+id/year"
+			android:layout_width="98sp"
+			android:layout_height="48sp"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:textSize="30sp"
+			android:maxLength="4"
+			android:background="@drawable/input" />
+		<Button
+			android:id="@+id/minusYear"
+			android:layout_width="98sp"
+			android:background="@drawable/minus"
+			android:layout_height="wrap_content" />
+			<!-- android:layout_height="40sp" -->
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<Button
+			android:id="@+id/plusMonth"
+			android:layout_width="80sp"
+			android:background="@drawable/plus"
+			android:layout_height="40sp" />
+		<EditText
+			android:numeric="integer"
+			android:id="@+id/month"
+			android:layout_width="80sp"
+			android:layout_height="48sp"
+			android:layout_gravity="center"
+			android:textSize="30sp"
+			android:gravity="center"
+			android:maxLength="2"
+			android:background="@drawable/input" />
+		<Button
+			android:id="@+id/minusMonth"
+			android:layout_width="80sp"
+			android:background="@drawable/minus"
+			android:layout_height="40sp" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<Button
+			android:id="@+id/plusDay"
+			android:layout_width="80sp"
+			android:background="@drawable/plus"
+			android:layout_height="40sp" />
+		<EditText
+			android:numeric="integer"
+			android:id="@+id/day"
+			android:layout_width="80sp"
+			android:layout_height="48sp"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:textSize="30sp"
+			android:maxLength="2"
+			android:background="@drawable/input" />
+		<Button
+			android:id="@+id/minusDay"
+			android:layout_width="80sp"
+			android:background="@drawable/minus"
+			android:layout_height="40sp" />
+	</LinearLayout>
+</LinearLayout>

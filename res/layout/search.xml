@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_weight="1">
+	<QuickContactBadge
+		android:id="@+id/quickContactBadge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/main"
+		android:layout_marginLeft="10px"
+		android:layout_gravity="center_vertical"/>	
+		
+	<AutoCompleteTextView
+		android:layout_marginLeft="10px"
+		android:id="@+id/aTextView"
+		android:layout_width="fill_parent"
+		android:layout_height="50sp"
+		android:hint="搜索联系人"
+		android:completionThreshold="1"
+		android:layout_gravity="center_vertical"
+		android:dropDownHeight="0sp"
+		android:drawableRight="@drawable/ic_search_category_default"
+		android:layout_weight="1">
+		<!-- android:dropDownHeight="0sp" -->
+	</AutoCompleteTextView>
+
+	<ImageButton
+		android:id="@+id/aClear"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/sym_keyboard_feedback_delete"
+		android:layout_gravity="center_vertical"
+		android:layout_marginRight="10px">
+	</ImageButton>
+	<!-- android:background="#006" -->
+</LinearLayout>

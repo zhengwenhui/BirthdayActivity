@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name = "translucent_background">#ff000000</color>
+    <color name = "listview_color">#00000000</color>
+    <color name = "title_color">#68bedf</color>
+    <color name = "tab_color">#000</color>
+</resources>

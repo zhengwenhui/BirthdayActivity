@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal"
+	android:layout_weight="1">
+	<QuickContactBadge
+		android:id="@+id/animalSign"
+		android:layout_width="wrap_content"
+		android:layout_marginLeft="10px"
+		android:layout_height="wrap_content" />
+	<!-- android:layout_gravity="center_vertical" -->
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:id="@+id/tablelayout"
+		android:layout_weight="1"
+		android:layout_marginLeft="10px"
+		android:layout_gravity="center">
+		<TextView
+			android:id="@+id/name"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="20sp"
+			android:textColor="#000"
+			android:singleLine="true"
+			android:ellipsize="end" />
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_weight="1"
+			android:layout_marginRight="10px">
+			<TextView
+				android:id="@+id/birthday"
+				android:textSize="16sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="#333" />
+			<TextView
+				android:id="@+id/dayslost"
+				android:textSize="14sp"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:textColor="#00f"
+				android:gravity="center"
+				android:textStyle="italic" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

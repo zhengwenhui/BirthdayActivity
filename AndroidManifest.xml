@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.birthday"
+	android:versionCode="1"
+	android:versionName="1.0">
+	<application
+		android:icon="@drawable/main"
+		android:label="@string/warningBirthday">
+		<activity
+			android:name=".BirthdayActivity"
+			android:label="@string/warningBirthday"
+			android:theme="@style/noTitleBar">
+			<intent-filter>
+				<action
+					android:name="android.intent.action.MAIN" />
+				<category
+					android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity
+			android:name=".SetActivity"
+			android:theme="@style/setBirthdaystyle">
+		</activity>
+
+		<activity
+			android:name=".SetBirthActivity"
+			android:theme="@style/setBirthdaystyle">
+		</activity>
+
+		<activity
+			android:name=".HelpActivity"
+			android:theme="@style/translucent">
+		</activity>
+
+		<activity
+			android:name=".AlarmActivity"
+			android:theme="@style/translucent">
+		</activity>
+
+		<receiver
+			android:name=".AlarmReceiver">
+			<intent-filter>
+				<action
+					android:name="com.sharpAndroid.test.BC_ACTION_3" />
+			</intent-filter>
+		</receiver>
+
+		<receiver
+			android:name=".TimeChangeReceiver">
+			<intent-filter>
+				<action
+					android:name="android.intent.action.TIME_SET" />
+				<action
+					android:name="android.intent.action.DATE_CHANGED" />
+				<action
+					android:name="android.intent.action.TIMEZONE_CHANGED" />
+			</intent-filter>
+		</receiver>
+	</application>
+	<uses-permission
+		android:name="android.permission.READ_CONTACTS" />
+	<uses-permission
+		android:name="android.permission.VIBRATE" />
+	<uses-sdk
+		android:minSdkVersion="10" />
+</manifest> 
